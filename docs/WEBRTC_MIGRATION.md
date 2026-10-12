@@ -52,10 +52,10 @@ python -m pip check
 ```
 
 Do not replace the extra with a PyPI dependency until this project is actually
-published there. The private Git source is at
+published there. The public Git source is at
 [kyeshmz/lerobot-lite](https://github.com/kyeshmz/lerobot-lite); after qualification,
-a Git dependency can be pinned to an immutable published commit. The installing
-computer must have access to the private repository. There is no PyPI release yet.
+a Git dependency can be pinned to an immutable published commit. Reading or
+cloning the public repository does not require authentication. There is no PyPI release yet.
 
 ## Checks before switching
 

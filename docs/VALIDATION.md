@@ -24,6 +24,7 @@ the exact license/notice files in both build artifacts, and records dependency
 terms in [LICENSE_AUDIT.md](LICENSE_AUDIT.md). The private GitHub remote was
 created using `gh` at [kyeshmz/lerobot-lite](https://github.com/kyeshmz/lerobot-lite);
 the original MCP token's creation restriction did not apply to the stored CLI login.
+The repository was subsequently made public at the user's request.
 
 Coverage includes range/degree conversions, drive-mode inversion, integer
 quantization, sign-magnitude encoding, actual position-register bytes, retry

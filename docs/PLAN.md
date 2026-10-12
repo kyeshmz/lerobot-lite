@@ -32,7 +32,7 @@ arm was connected or commanded while creating this repository.
 3. **Bridge integration branch.** Only replace hardware dependency/imports.
    Run full bridge simulation and supervised fault tests; keep deployed project
    unchanged until those pass.
-4. **Release/integrate.** The private GitHub source is available at
+4. **Release/integrate.** The public GitHub source is available at
     [kyeshmz/lerobot-lite](https://github.com/kyeshmz/lerobot-lite), without CI by
     user choice. After qualification, pin the bridge dependency to an immutable
     published commit. PyPI release, if desired, is a separate decision.
