@@ -1,0 +1,18 @@
+LeRobot Lite is an independent, hardware-only derivative of Hugging Face LeRobot.
+It is not an official Hugging Face or Seeed Studio package.
+
+Vendored hardware code is from huggingface/lerobot v0.6.1:
+commit 7e241bd630a3719a56157a497ce5d08f244784f1
+https://github.com/huggingface/lerobot/tree/7e241bd630a3719a56157a497ce5d08f244784f1
+
+Copyright 2024-2026 The HuggingFace Inc. team. All rights reserved.
+Licensed under the Apache License, Version 2.0; see LICENSE.
+Original file-level copyright notices are retained.
+
+Changes: isolated package namespace, removed ML-adjacent import paths,
+removed camera integration and device registries, replaced DeepDiff with
+dictionary equality for flat control tables, and added a validated standard-
+library calibration store and stricter public connection/action boundaries.
+Motor normalization, encoding, register tables, configuration, calibration
+procedure, and relative-target clipping are retained from the pinned source.
+See upstream.lock.json and scripts/vendor_upstream.py for exact provenance.
